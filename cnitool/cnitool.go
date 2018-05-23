@@ -102,7 +102,7 @@ func main() {
 	rt := &libcni.RuntimeConf{
 		ContainerID:    containerID,
 		NetNS:          netns,
-		IfName:         "eth0",
+		IfName:         "ecs-eth0",
 		Args:           cniArgs,
 		CapabilityArgs: capabilityArgs,
 	}
